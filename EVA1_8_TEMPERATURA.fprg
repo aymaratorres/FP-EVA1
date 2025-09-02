@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_8_TEMPERATURA"/>
+        <attribute name="authors" value="Aymara"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-02 03:56:20 a. m."/>
+        <attribute name="created" value="QXltYXJhO0xBUFRPUC1URkIzNkNTODsyMDI1LTA5LTAyOzAzOjQ1OjQ5IGEuIG0uOzMxMDU="/>
+        <attribute name="edited" value="QXltYXJhO0xBUFRPUC1URkIzNkNTODsyMDI1LTA5LTAyOzAzOjU2OjIwIGEuIG0uOzE7MzIwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="celsius" type="Real" array="False" size=""/>
+            <declare name="constante" type="Real" array="False" size=""/>
+            <declare name="proporcionalidad" type="Real" array="False" size=""/>
+            <declare name="denominador" type="Real" array="False" size=""/>
+            <declare name="fahrenheit" type="Real" array="False" size=""/>
+            <assign variable="constante" expression="32"/>
+            <assign variable="proporcionalidad" expression="5"/>
+            <assign variable="denominador" expression="9"/>
+            <assign variable="fahrenheit" expression="80.2"/>
+            <assign variable="celsius" expression="(80.2-32)*5/9"/>
+            <output expression="&quot;La conversion de grados fahrenheit a celsius es:&quot;" newline="True"/>
+            <output expression="celsius" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
