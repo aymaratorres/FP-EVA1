@@ -30,7 +30,7 @@ public class EVA1_15_MAYOR {
         System.out.println("El valor mayor es:");
         System.out.println(num2);
     }else{
-        System.out.println("Los valores son iguales;");
+        System.out.println("Los valores son iguales");
     }
     }
 }
